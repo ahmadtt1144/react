@@ -1,0 +1,114 @@
+.sidebar {
+    width: 60px; 
+    height: 75vh; 
+    background-color: #0c735f;
+    color: white;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .sidebar.open {
+    width: 200px; 
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px; 
+    background-color: #065b4c;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Icons Section */
+  .sidebar-icons {
+    flex: 1; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+  }
+  
+  .sidebar-icons li {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .sidebar-icons li:hover {
+    background-color: #066b58;
+  }
+  
+  .sidebar-icons li span {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* "More" Section */
+  .sidebar-more {
+    flex: 0 0 auto; 
+  }
+  
+  .sidebar-more ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-more li {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .sidebar-more li:hover {
+    background-color: #066b58;
+  }
+  
+  .sidebar-more li span {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Logout Section */
+  .sidebar-logout {
+    flex: 0 0 auto; 
+  }
+  
+  .sidebar-logout ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar-logout li {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .sidebar-logout li:hover {
+    background-color: #066b58;
+  }
+  
+  .sidebar-logout li span {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,55 @@
+/* Main Header Styles */
+.main-header {
+    width: calc(100% - 60px); 
+    height: 60px; 
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding: 0 20px; 
+    position: fixed;
+    top: 0;
+    left: 60px; /* Sidebar width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    overflow: hidden; 
+  }
+  
+  /* Profile Section */
+  .header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    max-width: 100%; 
+  }
+  
+  /* Profile Image */
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Profile Name */
+  .profile-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+  
+  /* Dropdown Icon */
+  .dropdown-icon {
+    font-size: 20px; 
+    color: #666;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+  }
+  
+  .dropdown-icon:hover {
+    transform: rotate(180deg); 
+  }
+  
